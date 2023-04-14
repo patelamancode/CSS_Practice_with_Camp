@@ -60,7 +60,7 @@ input {
 
 /* sol5 */
 .sample-card {
-  height: 400px;
+  height: 300px;
   width: 350px;
   margin: 20px;
   padding: 5px;
@@ -78,4 +78,28 @@ input {
   font-size: 18px;
   color: #666666;
   margin: 10px;
+}
+
+/* sol6 */
+.sample-card button {
+  background-color: #333333;
+  padding: 10px 20px;
+  color: #ffffff;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* sol7 */
+.search-bar {
+  width: 400px;
+  height: 40px;
+  border: solid 1px #cccccc;
+  margin: 10px 0;
+  padding: 0 20px;
+  background-color: white;
+  color: #999999;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
