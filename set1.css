@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.page-title {
+  color: green;
+}
+/* sol 1 */
+p,
+h2 {
+  font-family: serif;
+}
+.heading {
+  font-size: 36px;
+  color: #333333;
+}
+.description-for-page {
+  color: #666666;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* sol2 */
+.list li {
+  list-style-type: none;
+  font-size: 18px;
+  color: #333333;
+  padding: 10px;
+  border: solid 1px #cccccc;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+/* sol3 */
+.list-two li {
+  list-style-type: none;
+  font-size: 18px;
+  color: #333333;
+  font-weight: 800;
+  padding: 15px;
+  border: dotted 3px red;
+  border-radius: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+/* sol4 */
+input {
+  border: solid 1px #cccccc;
+  padding: 10px;
+  font-size: 18px;
+  margin: 18px;
+}
+.submit-btn {
+  background-color: #333333;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+/* sol5 */
+.sample-card {
+  height: 400px;
+  width: 350px;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.281);
+  background-color: #ffffff;
+}
+.sample-card h4 {
+  font-size: 24px;
+  color: #333333;
+  margin: 10px;
+}
+
+.sample-card p {
+  font-size: 18px;
+  color: #666666;
+  margin: 10px;
+}
