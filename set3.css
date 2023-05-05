@@ -161,3 +161,27 @@ h3 {
 .card7 {
   width: 350px;
 }
+.item-content {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: 25px;
+  position: relative;
+}
+
+.item-content p {
+  color: grey;
+  opacity: 0.7;
+  margin-top: 10px;
+  font-size: smaller;
+}
+.item-content .item-price {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 1;
+}
+.item-content button {
+  width: auto;
+  margin: 10px 0px;
+}
