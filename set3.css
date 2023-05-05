@@ -70,3 +70,94 @@ img {
 }
 
 /* sol4 */
+.card4 {
+  width: 450px;
+  margin: 0 0 20px 50px;
+  border-radius: 5px;
+  box-shadow: 15px 20px 30px grey;
+  display: flex;
+}
+.card4 .title-content {
+  margin: 18px;
+  align-items: left;
+}
+.card4 .title-content .description {
+  margin-left: 0px;
+}
+.card4 .image-content {
+  align-self: center;
+  margin: 5px;
+}
+.card4 button {
+  border: none;
+  background-color: blue;
+  border-radius: 5px;
+  width: 90px;
+  height: 40px;
+  color: white;
+}
+/* sol5 */
+.card5 {
+  margin: 50px;
+  border-radius: 10px;
+  box-shadow: 15px 20px 30px grey;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.card5 p,
+h3 {
+  margin: 0;
+}
+.card5 .item-des {
+  padding: 20px;
+}
+.item-des p {
+  opacity: 0.5;
+}
+.item-des h3 {
+  font-size: small;
+  margin-top: 5px;
+}
+.price {
+  display: flex;
+  padding: 7px 0px;
+}
+.price .new-price {
+  opacity: 1;
+  margin-right: 10px;
+}
+.price .real-price {
+  text-decoration: line-through;
+}
+.card5 button {
+  border: none;
+  background-color: rgba(0, 0, 255, 0.486);
+  border-radius: 5px;
+  width: 90px;
+  height: 40px;
+  color: white;
+  margin: 5px;
+}
+/* sol6 */
+.card6 {
+  width: 350px;
+}
+.card6a {
+  display: flex;
+  padding: 20px;
+}
+.card6a img {
+  border-radius: 50%;
+}
+.card6a .item-description {
+  margin-left: 20px;
+}
+.card6a .item-description p {
+  opacity: 0.5;
+  color: rgb(46, 0, 0);
+}
+/* sol7 */
+.card7 {
+  width: 350px;
+}
