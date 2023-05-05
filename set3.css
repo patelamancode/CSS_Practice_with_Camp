@@ -1,0 +1,72 @@
+/* Create a card that includes a title, and a description. Position the title and description and left align them vertically.
+
+a. The card can have a width of 400px.
+
+b. You have to add other CSS properties on your own and make your card look closest to the image shown below. Use appropriate padding, and margin wherever required. */
+
+.card1 {
+  margin: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 15px 15px 30px grey;
+  width: 400px;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+.card1 h3 {
+  margin: 3px;
+}
+.card1 p {
+  margin-top: 2px;
+}
+
+/* --sol2 */
+.card2 {
+  margin: 50px;
+  border-radius: 5px;
+  box-shadow: 10px 15px 40px grey;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+img {
+  object-fit: cover;
+}
+.card-2a {
+  align-self: left;
+  margin-left: 20px;
+}
+.description {
+  margin-left: 15px;
+  color: pink;
+}
+
+/* sol3 */
+.card3 {
+  margin: 50px;
+  border-radius: 5px;
+  box-shadow: 10px 15px 40px grey;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.card-3a {
+  position: relative;
+}
+.title-sub {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 10px;
+  color: white;
+}
+.card3 img {
+  width: 500px;
+  align-self: flex-start;
+}
+.card3 .description {
+  color: black;
+}
+
+/* sol4 */
